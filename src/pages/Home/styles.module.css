@@ -1,0 +1,21 @@
+.conteiner {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+.layout {
+    background-color: red;
+    width: 500px;
+    height: 500px;
+    flex: 2;
+}
+.list {
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    flex: 1;
+}
+.item {
+    background-color: green;
+}
