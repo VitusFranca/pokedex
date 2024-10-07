@@ -1,6 +1,6 @@
 .conteiner {  
     display: flex;
-
+   
 }
 .conteiner img {
    padding-left: 10px;
@@ -17,6 +17,7 @@
     list-style-type: none;
     padding-top: 20px;
     align-self: flex-start;
+    height: 5vh;
 }
 
 .conteiner li h1 {

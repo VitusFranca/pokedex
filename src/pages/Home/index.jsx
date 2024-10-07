@@ -3,6 +3,7 @@ import styles from './styles.module.css'
 import axios from 'axios'
 import { ListPokemon } from '../../components/ListPokemon';
 import { PokemonCard } from '../../components/PokemonCard';
+import {Footer} from '../../components/Footer';
 
 export const Home = () => {
 
@@ -98,7 +99,12 @@ export const Home = () => {
 				</div>))
 				}
 			</div>
-  
+			<Footer
+				email='mailto:vitusfranca@gmail.com'
+                insta='https://www.instagram.com/vitor_sfr/'
+                github='https://github.com/VitusFranca'
+                linkedin='https://www.linkedin.com/in/vitor-fran%C3%A7a-b90b23305/'
+			/>			
 		</div>
 	)
 }

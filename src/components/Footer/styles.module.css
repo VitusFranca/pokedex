@@ -1,0 +1,39 @@
+.conteiner {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.8rem 0 ;
+    background-color: #004F2A;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    
+    
+    
+}
+.conteiner h2 {
+    font-size: 15px;
+    margin: 0px 10px 0 10px;
+    padding: 0 0 0.2rem 0;
+    color: #efefef;
+
+    
+}
+.conteiner_icon {
+    
+    display: flex;
+    
+
+}
+.icon {
+    color: #efefef;
+    margin: 0px 10px 0 10px;
+}
+.icon a{
+    color: inherit;
+
+}
+.conteiner h3 {
+    padding: 1rem 1rem;
+    font-size: 15px;
+    
+}

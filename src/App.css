@@ -1,10 +1,5 @@
 #root {
-  min-height: 100vh;
-  margin: 0 auto;
-  padding: 0;
   text-align: center;
-}
-body {
-  margin: 0; /* Remove margens padrão */
-  padding: 0; /* Remove padding padrão */
+  
+
 }
