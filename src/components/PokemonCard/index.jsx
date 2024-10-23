@@ -3,12 +3,9 @@ import styles from './styles.module.css'
 export const PokemonCard = ( {name, id, img, types, abilities} ) => {
 
     const handleTypes = () => {
-        if(types[1]){
-            return types[0].type.name + " | " + types[1].type.name;
-        }
-            return types[0].type.name;
-        
-    }; 
+        const typeNames = types.map(type => type.type.name);
+        return typeNames.join(" | ");
+    }
     const handleAbilities = () => {
         if(abilities[1]){
             return abilities[0].ability.name + " | " + abilities[1].ability.name;
