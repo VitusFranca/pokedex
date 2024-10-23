@@ -1,9 +1,13 @@
 .conteiner {  
     display: flex;
+    width: 15vw;
    
 }
 .conteiner img {
    padding-left: 10px;
+   width: 100%; 
+   height: 100%; 
+   margin: 0;
 
 }
 .conteiner ul {  
@@ -15,13 +19,14 @@
 
 .conteiner li {
     list-style-type: none;
-    padding-top: 20px;
     align-self: flex-start;
-    height: 5vh;
+    width: 5vw;
+    background-color: red;
+    margin: 0;
 }
 
 .conteiner li h1 {
-    font-size: 12px;
+    font-size: 2vw;
     margin: 0;
  
 }
@@ -29,6 +34,6 @@
     margin: 0;
     padding: 0;
     
-    font-size: 10px;
+    font-size: 2.5vw;
     text-align: left;
 }
